@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/userLogo"
+        android:src="@drawable/guquanlogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/userLogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/userName"
+        android:text="大脸畜生">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/userLogo"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="10dp"
+        android:id="@+id/time"
+        android:layout_marginLeft="20dp"
+        android:text="10:30">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/userLogo"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_content"
+        android:layout_marginLeft="20dp"
+        android:text="大脸畜生">
+    </TextView>
+
+</RelativeLayout>

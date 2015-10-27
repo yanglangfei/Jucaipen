@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/notify"
+        android:background="@drawable/yx"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/today_date"
+        android:layout_toRightOf="@+id/notify"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/shijian"
+        android:text="10:46:23"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/notify"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/ideaContent"
+        android:layout_marginRight="20dp"
+        android:text="【远清看市之实盘】指数一根线拉下来了，刚好探至3350这个位置，指数的震荡目的就是消化前期的获利浮盈盘；这样才会慢慢聚拢更多的优质筹码；不用太过于担心行情的回踩；跌了要敢于补仓和低吸前期看好的品种；"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
